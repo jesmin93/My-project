@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(liza1.jpg);
+    background-size: cover;
+background-position: center;
+box-sizing: border-box;
+font-family: sans-serif;
+background-attachment: fixed;
+
+}
+.title{
+    color: white;
+    text-shadow: 2px 3px black;
+    display: inline;
+    
+}
+.menu-bar{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar.fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+h1{
+    color: black;
+    display: inline;
+    font-size: 50px;
+}
+
+pre{
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+
+/*menu start*/
+#menu{
+    background: rgba(71, 78, 92, 0.568);
+}
+.menu-title{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+}
+p{
+    font-size: 1.1em;
+    color: rgb(14, 13, 13);
+    
+}
+.menu-price{
+    float: right;
+
+}
+#restaurant-info{
+    background: rgba(177, 227, 250, 0.568);
+    padding: 20px;
+
+}
+.info{
+    color: rgb(14, 13, 13);
+    text-align: center;
+
+}
+.address-content,.time,.contact{
+    padding: 10px;
+}
+.address,.hours{
+    font-size: 1.1em !important;
+    text-align: center;
+}
+.phone{
+    margin-bottom: 0;
+    font-size: 1.1em !important;
+    text-align: center;
+}
+.bottom-cls{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    
+    
+
+}
+.bottom-cls p{
+    color:white;
+    margin-top: 20px;
+
+}
+.bottom-cls a{
+padding: 15px;
+}
+.change-btn{
+    float: right;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
